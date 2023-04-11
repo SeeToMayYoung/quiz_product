@@ -4,5 +4,5 @@ This project uses Laravel as a PHP Framework. It's just a simple project to expe
 # Product List Page
 ![img1](https://github.com/SeeToMayYoung/sl_product/blob/main/productlist.png)
 
-# Product Detail
+# Product Detail Page
 ![img2](https://github.com/SeeToMayYoung/sl_product/blob/main/productdetail.png)
