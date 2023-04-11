@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    gap: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/valorant_background.jpg");
+    background-size: contain;
+}
+
+.product-container{
+    padding: 2vw;
+    width: fit-content;
+    height: auto;
+    margin: 1vw 0vw;
+    color: black;
+}
+
+.product-desc {
+    width: 30vw;
+    text-align: center;
+    font-size: 1vw;
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+.product-container a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.rarity-price {
+    font-weight: 500;
+    font-size: 2vw;
+}
+
+.product-pic {
+    width: 30vw;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.rbox {
+    background-color:rgb(212, 212, 212);
+    box-shadow: 0 0 2.5vw 0.75vw #d4d4d4;
+}
+
+.srbox {
+    background-color:rgb(255, 255, 158);
+    box-shadow: 0 0 2.5vw 0.75vw #e0d648;
+}
+
+.ssrbox {
+    background-color:rgb(255, 158, 158);
+    box-shadow: 0 0 2.5vw 0.75vw #e04861;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.top-nav {
+    padding: 1vw 0vw;
+    background-color: #000000dc;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 3vw;
+    z-index: 1;
+}
